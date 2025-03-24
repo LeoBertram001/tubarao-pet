@@ -1,0 +1,85 @@
+/* Resetando o estilo padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    text-align: center;
+    padding: 0 10px;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #006064;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilo da seção */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Estilo das imagens dentro das seções */
+section img {
+    width: 100%;             /* Faz a imagem ocupar 100% da largura do container */
+    max-width: 600px;        /* Define a largura máxima para não ficar muito grande */
+    height: auto;            /* Mantém a proporção da imagem */
+    object-fit: contain;     /* Ajusta a imagem para dentro do container sem distorcer */
+    border-radius: 8px;
+    border: 5px solid #006064;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    display: block;          /* Garante que a imagem seja exibida como bloco */
+    margin-left: auto;       /* Centraliza a imagem */
+    margin-right: auto;      /* Centraliza a imagem */
+}
+
+/* Estilizando a barra de navegação */
+.pagination {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pagination a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #006064;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 16px;
+}
+
+/* Efeito de hover para a navegação */
+.pagination a:hover {
+    background-color: #004d40;
+    transform: scale(1.1);
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #006064;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
